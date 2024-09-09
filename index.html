@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive CSS</title>
+   <link rel="stylesheet" href="style.css">
+   
+   <!-- Using Font Awesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="nav-child">
+            <div>
+                <h1> <span>L</span>ogo</h1>
+            </div>
+            <div class="nav-link" id="menu-list">
+                <h4>Home</h4>
+                <h4>About</h4>
+                <h4>Service</h4>
+                <h4>Contact</h4>
+                <button class="btn">Hire Me</button>
+            </div>
+            <div class="checkbtn"><i class="fa fa-bars" id="click-icon"></i></div>
+        </div>
+
+    <div class="parent-div">
+        <div class="child-one">
+            <h1>Hey,I'm <span>Sophia</span></h1>
+            <p>This is my official website to show all my of and<br> details experiences of Web Development. </p>
+            <button class="cv-btn">Download CV</button>
+        </div>
+            <div class="img">
+                <img src="images/female-professional.jpg" alt="">
+            </div>
+    
+        
+    </div>
+
+    </div>
+    <section class="parent-two">
+        <div class="about">
+            <div class="img-one">
+                <img src="images/female-professional.jpg" alt="">
+            </div>
+            <div class="about-one">
+                <h1>About Me</h1>
+                <p class="p">Web developer</p>
+                <p class="p-one">I am a font-end web developer.<br>I can provide clean code.I also<br> make thewebsite more & more <br> interactive with animotional. A <br>responsive design makes your <br>website accessible to all users,<br> regardless of their device.</p>
+                <button class="btn-talk">Let's Talk</button>
+            </div>
+            
+        </div>
+    </section>
+
+        <section class="parent-three">
+            <div class="main">
+            <div class="test">
+                <h1>Services</h1>
+            </div>
+            <div class="div-three">
+                <div class="box-one">
+                    <img src="images/code.png" alt="" class="box-img">
+                    <p class="box-p">Web Development</p>
+                    <p class="box-p">Blog Website</p>
+                    <p class="box-p">Portfolio Website</p>
+                    <p class="box-p">E-Commerce Website</p>
+                    <button class="box-btn">Read More</button>
+                </div>
+                <div class="box-one">
+                    <img src="images/pencil.png" alt="" class="box-img">
+                    <p class="box-p">Web Development</p>
+                    <p class="box-p">Blog Website</p>
+                    <p class="box-p">Portfolio Website</p>
+                    <p class="box-p">E-Commerce Website</p>
+                    <button class="box-btn">Read More</button>
+                </div>
+                <div class="box-one">
+                    <img src="images/headset.png" alt="" class="box-img">
+                    <p class="box-p">Web Development</p>
+                    <p class="box-p">Blog Website</p>
+                    <p class="box-p">Portfolio Website</p>
+                    <p class="box-p">E-Commerce Website</p>
+                    <button class="box-btn">Read More</button>
+                </div>
+            </div>
+        </div>
+        </section>
+        <Section class="main-portfolio">
+        <div class="portfolio">
+            <h1 class="portfolio-h1">My Portfolio</h1>
+            <p class="portfolio-p1">Sub headind goes here</p>
+            <nav class="nav-three">
+                    <li class="a">DESIGN</li>
+                    <li class="a">GRAPHICS</li>
+                    <li class="a">MUSIC</li>
+                    <li class="a">TECHNOLOGY</li>
+            </nav>
+            <div class="image-four">
+            <img src="images/pexels-pixabay-52500.jpg" height="200px"alt="">
+            <img src="images/pexels-zhangkaiyv-1139556.jpg" height="200px">
+            <img src="images/pexels-seanpatrickphotography-2005922.jpg" height="200px" alt="">
+            <img src="images/pexels-garonpiceli-852793.jpg" height="200px" alt="">
+            </div>
+        </div>
+    
+        </Section>
+
+        <section class="main-contact">
+            <div class="contact">
+                <a class="last" href=""><i>Contact Me </i></a>
+                <p class="me1">Call for A Consulition of(434) 234-9876 Or Fill Ovt The Form Below</p>
+                <input class="ss" type="text" placeholder="Name:"><br>
+                <input class="ss" type="text" placeholder="Email:"><br>
+                <select name="Subject" id="">
+                    <option value="">Subject</option>
+                    <option value="">Design</option>
+                    <option value="">Web Development</option>
+                </select><br>
+                <textarea class="ss" id="">Message....</textarea><br>
+                <a class="lastab" href="">Send</a>
+                <div class="icon">
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-solid fa-industry"></i>
+                    <i class="fa-brands fa-square-twitter"></i>
+                    <p class="email">256 785 2602 | sharminakter06043@gmail.com</p>
+                    <p class="email">@2024 Ashieigh Richards Design</p>
+        
+        
+                </div>
+            </div>
+        </section>
+
+
+        
+    <!-- js script link -->
+    <script>
+        document.getElementById("click-icon").addEventListener("click", function () {
+            const menuList = document.getElementById("menu-list");
+            menuList.classList.toggle("show");
+        });
+    </script>
+</body>
+</html>
